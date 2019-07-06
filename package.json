@@ -1,0 +1,22 @@
+{
+  "name": "treekportfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tduncan14/treekportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tduncan14/treekportfolio/issues"
+  },
+  "homepage": "https://github.com/Tduncan14/treekportfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
