@@ -84,3 +84,15 @@ $background-opacity:0.1;
 
 
 }
+
+
+// Set Text Color
+
+@function set-text-color($colors){
+
+   @if(lightness($color )> 40){
+       @return #000;
+   }@else{
+      @return white;
+   }
+}
