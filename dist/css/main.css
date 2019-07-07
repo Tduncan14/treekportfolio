@@ -168,6 +168,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
+  color: #e7e7e7;
+  font-weight: bolder;
   grid-template-areas: 'bioimage bio bio' 'job1 job2  job3';
   grid-template-columns: repeat(3, 1fr); }
 
@@ -193,9 +195,10 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #175217;
+  background: #0e320e;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid; }
+  border-bottom: #eece1a 5px solid;
+  color: #eece1a; }
 
 .projects {
   display: grid;
