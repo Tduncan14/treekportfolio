@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Tduncan14/treekportfolio#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
